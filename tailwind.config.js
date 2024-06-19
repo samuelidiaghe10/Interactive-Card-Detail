@@ -7,11 +7,14 @@ export default {
   theme: {
     extend: {
       colors: {                        
-        'Soft-Blue': 'hsl(231, 69%, 60%)',
-        'Soft-Red': 'hsl(0, 94%, 66%)',
-        'Grayish-Blue': 'hsl(229, 8%, 60%)',
-        'Very-Dark-Blue': 'hsl(229, 31%, 21%)',
+        'Light-pink': 'hsl(275, 100%, 97%)',
+        'Grayish-purple': 'hsl(292, 16%, 49%)',
+        'Dark-purple': 'hsl(292, 42%, 14%)',
       },
+
+      backgroundImage: {
+        'pattern' : 'url("/src/faq-accordion-main/assets/images/background-pattern-desktop.svg")'
+      }
 
       
     },
