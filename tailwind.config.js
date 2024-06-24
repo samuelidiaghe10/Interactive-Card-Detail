@@ -7,16 +7,19 @@ export default {
   theme: {
     extend: {
       colors: {                        
-        'Light-pink': 'hsl(275, 100%, 97%)',
-        'Grayish-purple': 'hsl(292, 16%, 49%)',
-        'Dark-purple': 'hsl(292, 42%, 14%)',
+        'Red': 'hsl(0, 100%, 66%)',
+        'Light-grayish-violet': 'hsl(270, 3%, 87%)',
+        'Dark-grayish-violet': 'hsl(279, 6%, 55%)',
+        'Very-dark-violet': 'hsl(278, 68%, 11%)',
+
       },
 
       backgroundImage: {
-        'pattern' : 'url("/src/faq-accordion-main/assets/images/background-pattern-desktop.svg")'
+        'cardFront' : 'url("/src/interactive-card-details-form-main/images/bg-card-front.png")',
+        'cardBack': 'url("/src/interactive-card-details-form-main/images/bg-card-back.png")',
+        'pattern': 'url("/src/interactive-card-details-form-main/images/bg-main-desktop.png")',
+        'pattern2': 'url("/src/interactive-card-details-form-main/images/bg-main-mobile.png")'
       }
-
-      
     },
   },
   plugins: [],
